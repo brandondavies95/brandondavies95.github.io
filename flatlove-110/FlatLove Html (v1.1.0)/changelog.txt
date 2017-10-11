@@ -1,0 +1,24 @@
+FLATLOVE HTML CHANGELOG
+=================================
+
+Version 1.0.0 ( 2015.05.21 )
+---------------------------------
+- Initial Release
+
+
+Version 1.0.1 ( 2015.06.17 )
+---------------------------------
+- ADDED: Local copy of Bootstrap Sass added to /sass/theme folder
+
+
+Version 1.0.2 ( 2015.08.29 )
+---------------------------------
+- UPDATED: Every template asset is replaced in the /assets/ folder
+- UPDATED: Urls and links updated in index.html according to the new paths
+- UPDATED: Template documentation
+
+
+Version 1.1.0 ( 2016.10.03 )
+---------------------------------
+- FIXED: Few minor css bugs
+- UPDATED: Template documentation

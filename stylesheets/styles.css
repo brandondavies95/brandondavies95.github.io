@@ -13,8 +13,8 @@
  *		## ANIMATE.............................Animate css3 plugin
  *		## FONTAWESOME.........................Font awesome icons
  *		## WEBFONTS............................Scss google fonts
-  *		## OWLCAROUSEL.........................Nice carousel slider 
- * 
+  *		## OWLCAROUSEL.........................Nice carousel slider
+ *
  *	# BASE -------------------------------------------------------------
  *
  *		## COMMON..............................Normalize and general rules
@@ -3971,7 +3971,7 @@ Copyright (c) 2015 Daniel Eden
 /* --------------------------------------------------
  ## PLUGIN: OWLCAROUSEL
 -------------------------------------------------- */
-/* 
+/*
  *  Core Owl Carousel CSS File
  *  v1.3.3
  */
@@ -4038,7 +4038,7 @@ Copyright (c) 2015 Daniel Eden
   -ms-transform: translate3d(0, 0, 0); }
 
 /*
-*   Owl Carousel Owl Demo Theme 
+*   Owl Carousel Owl Demo Theme
 * v1.3.3
 */
 .owl-theme .owl-controls {
@@ -4114,8 +4114,8 @@ Copyright (c) 2015 Daniel Eden
   min-height: 150px;
   background: url(AjaxLoader.gif) no-repeat center center; }
 
-/* 
- *  Owl Carousel CSS3 Transitions 
+/*
+ *  Owl Carousel CSS3 Transitions
  *  v1.3.2
  */
 .owl-origin {
@@ -11083,7 +11083,7 @@ blockquote {
 /* --------------------------------------------------
  ## LAYOUT: HEADER
 -------------------------------------------------- */
-/* Page header 
+/* Page header
 ---------------------------- */
 header.page-header {
   margin: 80px 0 0;
@@ -12219,7 +12219,7 @@ section, .section {
       border-color: #B84746;
       background-color: #B84746; }
 
-/* Carousel controls 
+/* Carousel controls
 ---------------------------- */
 .carousel-control {
   text-shadow: none;

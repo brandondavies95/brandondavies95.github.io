@@ -12337,6 +12337,10 @@ section, .section {
     overflow: hidden;
     transition: all 200ms ease-out;
     cursor: pointer;
+    width: 500px;
+    height: 360px;
+    display: block;
+    margin: auto;
 }
 
 .youtube .play {
@@ -12358,4 +12362,13 @@ section, .section {
 iframe {
   display: block;
   margin: auto;
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .youtube {
+    width: 100%;
+  }
 }

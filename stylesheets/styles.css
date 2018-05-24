@@ -12371,3 +12371,28 @@ iframe {
     width: 100%;
   }
 }
+
+#donate-btn {
+  background: #5FB1F7;
+  background-image: -webkit-linear-gradient(top, #5FB1F7, #399ced);
+  background-image: -moz-linear-gradient(top, #5FB1F7, #399ced);
+  background-image: -ms-linear-gradient(top, #5FB1F7, #399ced);
+  background-image: -o-linear-gradient(top, #5FB1F7, #399ced);
+  background-image: linear-gradient(to bottom, #5FB1F7, #399ced);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 15px;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#donate-btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}

@@ -11118,6 +11118,9 @@ header.home-header {
       header.home-header .header-desc {
         font-size: 12px !important;
         text-align: center; } }
+      .donate {
+        font-size: 14px !important;
+        text-align: center; } }
   @media (max-width: 480px) {
     header.home-header {
       margin-top: 50px; } }

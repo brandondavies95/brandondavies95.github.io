@@ -11949,7 +11949,16 @@ section, .section {
       font-size: 26px; } }
   @media (max-width: 480px) {
     .blog-title {
-      padding-top: 30%; } }
+      padding-top: 30%; }
+    .firstpic {
+      padding-top: 10% !important; }
+    .moab {
+      padding-top: 0px !important; }
+    .western {
+      padding-top: 15% !important; } }
+    .overlook {
+      padding-top: 15%;
+      font-size: 20px; } }
 
 /* Blog head
 ---------------------------- */

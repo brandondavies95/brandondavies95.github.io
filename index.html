@@ -136,7 +136,7 @@
     </div>
 
     <div class="section bg-white padding-sm" id="sponsors">
-      <a class="weatherwidget-io" href="https://forecast7.com/en/41d04n111d68/morgan/?unit=us" data-label_1="MORGAN, UTAH" data-label_2="WEATHER" data-font="Roboto" data-theme="mountains" data-basecolor="#71b0f1">MORGAN WEATHER</a>
+      <a class="weatherwidget-io" href="https://forecast7.com/en/41d04n111d68/morgan/?unit=us" data-label_1="MORGAN, UTAH" data-label_2="WEATHER" data-font="Roboto" data-theme="mountains" data-basecolor="#b84746">MORGAN WEATHER</a>
       <script>
         ! function(d, s, id) {
           var js, fjs = d.getElementsByTagName(s)[0];
@@ -547,7 +547,7 @@
       <div class="row text-center-xs">
         <div class="col-md-12 col-sm-12">
           <div class="pd-t hidden-lg hidden-md hidden-xs hidden-xxs"></div>
-          <h5 class="no-mg" style="text-align: center;">Wondering where the wedding will be? It's at 622 Meadow Creek Way, Morgan, Utah, 84050</h5>
+          <h5 class="no-mg" style="text-align: center;">Wondering where the wedding will be? It's at <span onclick="mapsSelector()">622 Meadow Creek Way, Morgan, Utah, 84050</span></h5>
           <br class="hidden-lg hidden-md hidden-sm">
         </div>
         <div class="col-md-3 col-sm-5 wow fadeInRightBig" data-wow-delay="0.6s">
@@ -641,6 +641,16 @@
   <script async src="javascripts/scripts.js"></script>
   <script>
     'use strict';
+
+    function mapsSelector() {
+      if /* if we're on iOS, open in Apple Maps */ ((navigator.platform.indexOf("iPhone") != -1) ||
+        (navigator.platform.indexOf("iPod") != -1) ||
+        (navigator.platform.indexOf("iPad") != -1))
+        window.open("maps://maps.google.com/maps?daddr=41.042609951664986,-111.69477777864694&amp;ll=");
+
+      else /* else use Google */
+        window.open("https://maps.google.com/maps?daddr=41.042609951664986,-111.69477777864694&amp;ll=");
+    }
 
     function r(f) {
       /in/.test(document.readyState) ? setTimeout('r(' + f + ')', 9) : f()

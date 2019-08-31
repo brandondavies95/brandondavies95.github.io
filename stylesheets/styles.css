@@ -11101,7 +11101,7 @@ header.page-header {
 /* Home header
 ---------------------------- */
 header.home-header {
-  margin-top: 0px; }
+  margin-top: 80px; }
   header.home-header .header-content {
     padding-top: 25%;
     padding-bottom: 25%; }
